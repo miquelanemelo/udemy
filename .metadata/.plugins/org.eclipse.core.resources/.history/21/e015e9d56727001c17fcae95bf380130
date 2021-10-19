@@ -1,0 +1,20 @@
+package exercicios;
+
+public class ConversorDeMoedas {
+	
+	public double dolar;
+	public double dolarDia;
+	public double real;
+	public double totalImposto;
+	public static final double IMPOSTO = 6;
+	
+	public double totalImposto(double dolar) {
+		return real += real * IMPOSTO / 100;
+		
+	}
+	public double conversor(double IMPOSTO) {		
+		return real + totalImposto;
+	}
+	
+
+}
