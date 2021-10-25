@@ -35,6 +35,12 @@ public class ContaTest {
 		System.out.println("Informações da conta atualizada: ");
 		System.out.println(conta);
 		
+		System.out.println();
+		System.out.print("Digite um valor para saque: ");
+		double valorSaque = s.nextDouble();
+		conta.saque(valorSaque);
+		System.out.println("Informações da conta atualizada: ");
+		System.out.println(conta);
 
 		
 		s.close();
